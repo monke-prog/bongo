@@ -1,0 +1,21 @@
+{
+  "title": "Changelog v1.4.0",
+  "summary": "Bug fixes, performance improvements, and groundwork for feature flags.",
+  "attributes": {
+    "version": "1.4.0",
+    "date": "2025-09-09",
+    "status": "stable",
+    "added": "3",
+    "changed": "2",
+    "fixed": "5",
+    "notes": "No breaking changes; rollout at 25%."
+  },
+  "metadata": {
+    "token": "29d67985",
+    "commit_sha": "f3a8c1d",
+    "build_id": "build-20250909.1",
+    "author": "release-bot",
+    "jira": "PROJ-1289",
+    "created_at": "2025-09-09T12:00:00Z"
+  }
+}
