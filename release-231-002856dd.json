@@ -1,16 +1,19 @@
 {
-  "title": "Release 2.3.1",
-  "summary": "Faster startup, crash fix on launch, smaller bundle.",
+  "title": "v1.4.2 - Performance and stability",
+  "summary": "Optimized query caching, reduced cold-start latency, fixed flaky retries.",
   "attributes": {
-    "version": "2.3.1",
-    "date": "2025-09-09",
-    "changes": "perf:+20% startup; fix:auth nullref; size:-8%"
+    "version": "1.4.2",
+    "scope": "backend",
+    "changes": "optimize-caching;retry-fix;metrics-tuning",
+    "impact": "medium",
+    "compatibility": "no-breaking-changes"
   },
   "metadata": {
     "token": "002856dd",
-    "commit": "a1b2c3d",
     "pr": "482",
-    "env": "prod",
+    "build": "20250909.1",
+    "commit": "a1b2c3d",
+    "author": "devops-bot",
     "created_at": "2025-09-09T00:00:00Z"
   }
 }
