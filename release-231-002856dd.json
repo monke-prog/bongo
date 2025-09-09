@@ -1,0 +1,16 @@
+{
+  "title": "Release 2.3.1",
+  "summary": "Faster startup, crash fix on launch, smaller bundle.",
+  "attributes": {
+    "version": "2.3.1",
+    "date": "2025-09-09",
+    "changes": "perf:+20% startup; fix:auth nullref; size:-8%"
+  },
+  "metadata": {
+    "token": "002856dd",
+    "commit": "a1b2c3d",
+    "pr": "482",
+    "env": "prod",
+    "created_at": "2025-09-09T00:00:00Z"
+  }
+}
