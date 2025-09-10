@@ -1,21 +1,21 @@
 {
-  "title": "Fix: prevent memory leak in LRU cache eviction",
-  "summary": "Resolved LRU cache leak by correcting reference lifetimes during eviction; improves stability under sustained load.",
+  "title": "Release v1.4.0",
+  "summary": "Performance improvements, bug fixes, and minor enhancements.",
   "attributes": {
-    "version": "1.4.3",
-    "type": "bugfix",
-    "scope": "cache",
-    "component": "storage/lru",
-    "pr": "#482",
-    "commit": "abc1234"
+    "version": "1.4.0",
+    "date": "2025-09-10",
+    "added": "Lazy image loading; Config hot-reload",
+    "changed": "Improved pagination UX; Dependency upgrades",
+    "fixed": "Cache race condition; 404 on profile lookup",
+    "perf": "-22% cold-start; -18% idle memory"
   },
   "metadata": {
-    "token": "b567e0c7",
-    "issue": "GH-1024",
-    "breaking_change": "false",
-    "impact": "low",
-    "reviewers": "alice,bob",
-    "ci_status": "passed",
-    "created_at": "2025-09-10T00:00:00Z"
+    "token": "",
+    "commit": "7f3c2b1",
+    "branch": "main",
+    "compare_url": "https://example.com/compare/v1.3.2...v1.4.0",
+    "author": "ci-bot",
+    "build": "build-20250910.1",
+    "created_at": "2025-09-10T12:00:00Z"
   }
 }
