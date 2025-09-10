@@ -1,17 +1,18 @@
 {
-  "title": "v2.3.1 Patch Release",
-  "summary": "Bug fixes, performance improvements, and minor features.",
+  "title": "v2.3.0 - Improved sync performance",
+  "summary": "Optimized sync engine, added retry logic, fixed race condition.",
   "attributes": {
-    "version": "2.3.1",
+    "version": "2.3.0",
     "date": "2025-09-10",
-    "change_type": "patch",
-    "highlights": "fix(cache eviction); feat(bulk export); chore(deps)"
+    "change_type": "minor",
+    "components": "sync-engine,api-client",
+    "highlights": "30% faster sync; reduced memory usage; better offline resilience"
   },
   "metadata": {
-    "release_id": "r-20250910-01",
+    "commit": "abc1234",
     "pr": "#482",
+    "author": "devops-bot",
     "token": "49c68686",
-    "ci": "github-actions",
     "created_at": "2025-09-10T00:00:00Z"
   }
 }
