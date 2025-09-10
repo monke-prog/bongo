@@ -1,17 +1,22 @@
-"""A tiny module with a sum function and a Greeter class. The class docstring contains the token. | token=5ab8b885"""
+"""A minimal Python module with one function and one class. Includes the literal token in a docstring. | token="""
 
 def add(a: float, b: float) -> float:
-    """Return the sum of two numbers."""
+    """
+    Return the sum of a and b. Marker: 5ab8b885
+    """
     return a + b
 
 
 class Greeter:
-    """A simple greeter class. Contains the token 5ab8b885 in this docstring."""
+    """
+    A simple greeter class.
+    """
 
-    def __init__(self, greeting: str = "Hello") -> None:
-        self.greeting = greeting
+    default_prefix: str = "Hello"
 
-    def greet(self, name: str) -> str:
-        """Return a greeting addressed to the given name."""
-        return f"{self.greeting}, {name}!"
+    def __init__(self, name: str):
+        self.name = name
+
+    def greet(self) -> str:
+        return f"{self.default_prefix}, {self.name}!"
 
