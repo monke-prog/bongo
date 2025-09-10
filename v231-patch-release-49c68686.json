@@ -1,0 +1,17 @@
+{
+  "title": "v2.3.1 Patch Release",
+  "summary": "Bug fixes, performance improvements, and minor features.",
+  "attributes": {
+    "version": "2.3.1",
+    "date": "2025-09-10",
+    "change_type": "patch",
+    "highlights": "fix(cache eviction); feat(bulk export); chore(deps)"
+  },
+  "metadata": {
+    "release_id": "r-20250910-01",
+    "pr": "#482",
+    "token": "49c68686",
+    "ci": "github-actions",
+    "created_at": "2025-09-10T00:00:00Z"
+  }
+}
