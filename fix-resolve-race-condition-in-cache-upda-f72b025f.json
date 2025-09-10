@@ -1,0 +1,17 @@
+{
+  "title": "Fix: resolve race condition in cache updater",
+  "summary": "Addresses intermittent cache staleness and improves retry backoff.",
+  "attributes": {
+    "version": "1.4.3",
+    "scope": "backend/cache",
+    "impact": "medium",
+    "ticket": "ABC-1298"
+  },
+  "metadata": {
+    "commit": "a1b2c3d",
+    "author": "jdoe",
+    "reviewers": "asmith, bjones",
+    "token": "f72b025f",
+    "created_at": "2025-09-10T00:00:00Z"
+  }
+}
