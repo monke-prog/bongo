@@ -1,0 +1,16 @@
+{
+  "title": "Release v2.3.0",
+  "summary": "Adds bulk CSV import, improves cache invalidation, and fixes a worker start race.",
+  "attributes": {
+    "version": "2.3.0",
+    "features": "bulk_csv_import;cache_invalidation_tuning",
+    "fixes": "worker_start_race",
+    "perf": "p95 -12% on imports"
+  },
+  "metadata": {
+    "token": "",
+    "commit": "e9a4b2f",
+    "pr": "#482",
+    "created_at": "2025-09-10T00:00:00Z"
+  }
+}
