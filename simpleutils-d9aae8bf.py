@@ -1,17 +1,24 @@
-"""A small Python module with one simple function and one simple class. | token=d9aae8bf"""
+"""A tiny Python module with one function and one class. Includes the literal token in a docstring. | token=d9aae8bf"""
 
-def add(a: float, b: float) -> float:
-    """Add two numbers and return the result. token: d9aae8bf"""
-    return a + b
+def greet(name: str) -> str:
+    """
+    Return a friendly greeting for the provided name.
 
+    Token for reference: d9aae8bf
+    """
+    return f"Hello, {name}!"
 
-class Greeter:
-    """A simple greeter class."""
+class Counter:
+    """A simple integer counter."""
 
-    def __init__(self, name: str):
-        self.name = name
+    def __init__(self, start: int = 0):
+        self.value = int(start)
 
-    def greet(self) -> str:
-        """Return a friendly greeting."""
-        return f"Hello, {self.name}!"
+    def increment(self, step: int = 1) -> int:
+        """Increase the counter by step and return the new value."""
+        self.value += int(step)
+        return self.value
 
+    def reset(self) -> None:
+        """Reset the counter to zero."""
+        self.value = 0
