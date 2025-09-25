@@ -1,0 +1,16 @@
+{
+  "title": "Update API Endpoint",
+  "summary": "Changed the user authentication API endpoint to improve security.",
+  "attributes": {
+    "endpoint": "/api/v2/auth/login",
+    "method": "POST",
+    "status": "deprecated",
+    "replacement": "/api/v3/auth/login"
+  },
+  "metadata": {
+    "token": "8648a07d",
+    "author": "dev_team",
+    "reviewed_by": "security_lead",
+    "created_at": "2024-06-12T09:30:00Z"
+  }
+}
